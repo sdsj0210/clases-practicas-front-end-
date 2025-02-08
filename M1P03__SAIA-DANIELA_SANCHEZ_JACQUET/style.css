@@ -1,0 +1,28 @@
+body {
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  min-height: 98vh;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.parrafos {
+  text-align: justify;
+  width: 350px;
+}
+
+footer {
+  margin: 1px;
+  text-align: center;
+  border-top: 1px #e1e1e1 solid;
+  width: 100%;
+}

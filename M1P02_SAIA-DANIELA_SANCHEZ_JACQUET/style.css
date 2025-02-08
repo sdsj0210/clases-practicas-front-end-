@@ -1,0 +1,10 @@
+.parrafos {
+  width: 350px;
+  text-align: justify;
+}
+
+footer {
+  border-top: 1px #e1e1e1 solid;
+  margin: 1px;
+  text-align: center;
+}

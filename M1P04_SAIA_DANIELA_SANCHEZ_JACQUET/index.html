@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Practica 2 del Curso " />
+    <meta name="keywords" content="meta, practicas, html, lorem " />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Practica 4</title>
+    <!-- Cambiaremos la etiqueta <title> y pondremos “Práctica 4”. -->
+  </head>
+
+  <body>
+    <header>
+      <h1>Contenedores Semanticos y de Texto</h1>
+      <nav class="menu">
+        <a href="inicio.html">Inicio</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </header>
+
+    <section class="parrafos">
+      <article>
+        <h2><i>Lorem Ipsum</i></h2>
+        <!-- Uno de los encabezados de los artículos debe de estar en cursiva. -->
+        <p>
+          <strong>Lorem ipsum dolor</strong>
+          <!-- Las tres primeras palabras de cada artículo deben de indicar importancia -->
+          sit amet consectetur adipisicing elit. Doloremque dolores eveniet
+          assumenda aperiam maiores, quae, quo id illo perspiciatis veritatis
+          sit fuga deleniti fugit ea minus. Placeat consequatur natus ipsum.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil enim
+          ipsa quod mollitia ducimus excepturi culpa dolorum, corrupti
+          necessitatibus eligendi! Magnam distinctio ducimus sunt eveniet,
+          blanditiis esse quae architecto corrupti.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          dolores eveniet assumenda aperiam maiores, quae, quo id illo
+          perspiciatis veritatis sit fuga deleniti fugit ea minus. Placeat
+          <em>consequatur natus ipsum</em>.
+          <!-- Las tres últimas palabras de cada artículo deben indicar énfasis -->
+        </p>
+      </article>
+    </section>
+
+    <hr />
+    <!-- Hay que colocar un quiebre temático entre las etiquetas <section> y <aside>.-->
+
+    <aside class="parrafos">
+      <article>
+        <h2>Lorem Ipsum</h2>
+
+        <p>
+          <strong>Lorem ipsum dolor</strong> sit amet consectetur adipisicing
+          <!-- Las tres primeras palabras de cada artículo deben de indicar importancia -->
+          elit. Doloremque dolores eveniet assumenda aperiam maiores, quae, quo
+          id illo perspiciatis veritatis sit fuga deleniti fugit ea minus.
+          Placeat consequatur natus ipsum.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          dolores eveniet assumenda aperiam maiores, quae, quo id illo
+          perspiciatis veritatis sit fuga deleniti fugit ea minus. Placeat
+          consequatur natus ipsum.
+        </p>
+
+        <!-- Dentro del <aside> tendremos que insertar una definición usando las etiquetas correspondientes. -->
+        <dl class="definicion">
+          <dt>Ordenadas:</dt>
+          <dd>
+            Una lista ordenada utiliza números o algún tipo de notación que
+            indica una serie de elementos.
+          </dd>
+          <dt>No ordenadas:</dt>
+          <dd>
+            Cada elemento se precede por un viñeta común que no sugiere ninguna
+            ordenación en particular
+          </dd>
+          <dt>De definición:</dt>
+          <dd>
+            Las listas de definición sirven para hacer un conjunto de elementos
+            con pares concepto-descripción. Es decir, se especificarán varios
+            términos por su nombre y se escribirá una definición para cada uno.
+            Cada elemento es presentado junto con su definición, uno detrás de
+            otro.
+          </dd>
+        </dl>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          dolores eveniet assumenda aperiam maiores, quae, quo id illo
+          perspiciatis veritatis sit fuga deleniti fugit ea minus. Placeat
+          <em>consequatur natus ipsum</em>.
+          <!-- Las tres últimas palabras de cada artículo deben indicar énfasis -->
+        </p>
+      </article>
+    </aside>
+
+    <footer>
+      <div>
+        <h3>Todos los derechos reservados</h3>
+        <p>Curso de Programacion Web:<span> Front-End</span></p>
+        <p>Saia Daniela Sánchez Jacquet</p>
+      </div>
+    </footer>
+
+    <hr />
+    <!-- Hay que colocar un quiebre temático entre las etiquetas <body> y <footer>. -->
+  </body>
+</html>

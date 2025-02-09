@@ -4,25 +4,9 @@ body {
   min-height: 98vh;
 }
 
-.menu {
-  display: flex;
-  justify-content: space-between;
-  width: 400px;
-}
-
-.menu a {
-  text-decoration: none;
-  color: black;
-}
-
 .parrafos {
   text-align: justify;
   width: 400px;
-}
-
-.definicion {
-  border: #e1e1e1 1px solid;
-  padding: 10px;
 }
 
 span {

@@ -7,109 +7,74 @@
     <meta name="keywords" content="meta, practicas, html, lorem " />
     <link rel="stylesheet" href="style.css" />
 
-    <title>Practica 4</title>
-    <!-- Cambiaremos la etiqueta <title> y pondremos “Práctica 4”. -->
+    <title>Practica 5</title>
+    <!-- Cambiaremos la etiqueta <title> a “Práctica 5”. -->
   </head>
 
   <body>
     <header>
-      <h1>Contenedores Semanticos y de Texto</h1>
-      <nav class="menu">
-        <a href="inicio.html">Inicio</a>
-        <a href="galeria.html">Galeria</a>
-        <a href="contacto.html">Contacto</a>
-      </nav>
+      <h2><u>Contenedores Semanticos y de Texto</u></h2>
+      <!-- Crear un <header> con un encabezado de segundo nivel y subrayado. -->
     </header>
 
-    <section class="parrafos">
-      <article>
-        <h2><i>Lorem Ipsum</i></h2>
-        <!-- Uno de los encabezados de los artículos debe de estar en cursiva. -->
-        <p>
-          <strong>Lorem ipsum dolor</strong>
-          <!-- Las tres primeras palabras de cada artículo deben de indicar importancia -->
-          sit amet consectetur adipisicing elit. Doloremque dolores eveniet
-          assumenda aperiam maiores, quae, quo id illo perspiciatis veritatis
-          sit fuga deleniti fugit ea minus. Placeat consequatur natus ipsum.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil enim
-          ipsa quod mollitia ducimus excepturi culpa dolorum, corrupti
-          necessitatibus eligendi! Magnam distinctio ducimus sunt eveniet,
-          blanditiis esse quae architecto corrupti.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-          dolores eveniet assumenda aperiam maiores, quae, quo id illo
-          perspiciatis veritatis sit fuga deleniti fugit ea minus. Placeat
-          <em>consequatur natus ipsum</em>.
-          <!-- Las tres últimas palabras de cada artículo deben indicar énfasis -->
-        </p>
-      </article>
+    <section>
+      <p class="parrafos">
+        <!-- Añadir un párrafo en negrita. -->
+        <b>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut modi hic
+          a fugit ab non quam voluptatem vel, at tempore molestias dolores
+          laboriosam tenetur iure? Error harum esse voluptates quis!
+        </b>
+      </p>
+
+      <p class="parrafos">
+        <!-- Añadir un párrafo en cursiva. -->
+        <i>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut modi hic
+          a fugit ab non quam voluptatem vel, at tempore molestias dolores
+          laboriosam tenetur iure? Error harum esse voluptates quis!
+        </i>
+      </p>
+
+      <p class="parrafos">
+        <!-- Añadir un párrafo con énfasis e importancia semántica. -->
+        <strong>
+          <em>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut modi
+            hic a fugit ab non quam voluptatem vel, at tempore molestias dolores
+            laboriosam tenetur iure? Error harum esse voluptates quis!
+          </em>
+        </strong>
+      </p>
+
+      <p class="parrafos">
+        <!--Añadir un párrafo con texto normal y otro texto a modo de superíndice. -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut modi hic a
+        fugit ab non quam voluptatem vel,
+        <sup>
+          at tempore molestias dolores laboriosam tenetur iure? Error harum esse
+          voluptates quis!
+        </sup>
+      </p>
+
+      <p class="parrafos">
+        <!--Añadir un párrafo con texto normal y otro texto a modo de subíndice. -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut modi hic a
+        fugit ab non quam voluptatem vel,
+        <sub>
+          at tempore molestias dolores laboriosam tenetur iure? Error harum esse
+          voluptates quis!
+        </sub>
+      </p>
     </section>
-
-    <hr />
-    <!-- Hay que colocar un quiebre temático entre las etiquetas <section> y <aside>.-->
-
-    <aside class="parrafos">
-      <article>
-        <h2>Lorem Ipsum</h2>
-
-        <p>
-          <strong>Lorem ipsum dolor</strong> sit amet consectetur adipisicing
-          <!-- Las tres primeras palabras de cada artículo deben de indicar importancia -->
-          elit. Doloremque dolores eveniet assumenda aperiam maiores, quae, quo
-          id illo perspiciatis veritatis sit fuga deleniti fugit ea minus.
-          Placeat consequatur natus ipsum.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-          dolores eveniet assumenda aperiam maiores, quae, quo id illo
-          perspiciatis veritatis sit fuga deleniti fugit ea minus. Placeat
-          consequatur natus ipsum.
-        </p>
-
-        <!-- Dentro del <aside> tendremos que insertar una definición usando las etiquetas correspondientes. -->
-        <dl class="definicion">
-          <dt>Ordenadas:</dt>
-          <dd>
-            Una lista ordenada utiliza números o algún tipo de notación que
-            indica una serie de elementos.
-          </dd>
-          <dt>No ordenadas:</dt>
-          <dd>
-            Cada elemento se precede por un viñeta común que no sugiere ninguna
-            ordenación en particular
-          </dd>
-          <dt>De definición:</dt>
-          <dd>
-            Las listas de definición sirven para hacer un conjunto de elementos
-            con pares concepto-descripción. Es decir, se especificarán varios
-            términos por su nombre y se escribirá una definición para cada uno.
-            Cada elemento es presentado junto con su definición, uno detrás de
-            otro.
-          </dd>
-        </dl>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-          dolores eveniet assumenda aperiam maiores, quae, quo id illo
-          perspiciatis veritatis sit fuga deleniti fugit ea minus. Placeat
-          <em>consequatur natus ipsum</em>.
-          <!-- Las tres últimas palabras de cada artículo deben indicar énfasis -->
-        </p>
-      </article>
-    </aside>
 
     <footer>
       <div>
-        <h3>Todos los derechos reservados</h3>
+        <!-- Crear un <footer> y añadir un “Copyright 2022” con letra pequeña -->
         <p>Curso de Programacion Web:<span> Front-End</span></p>
-        <p>Saia Daniela Sánchez Jacquet</p>
+        <p>Todos los derechos reservados</p>
+        <small>Copyright 2025</small>
       </div>
     </footer>
-
-    <hr />
-    <!-- Hay que colocar un quiebre temático entre las etiquetas <body> y <footer>. -->
   </body>
 </html>

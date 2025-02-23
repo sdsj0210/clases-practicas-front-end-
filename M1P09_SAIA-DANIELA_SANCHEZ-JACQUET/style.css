@@ -1,0 +1,80 @@
+h1 {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Deberá incluir una imagen del grupo centrada. 
+La imagen deberá tener un anchura máxima de 600 pixeles y un alto que pondremos automático */
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  width: 600px;
+  height: auto;
+}
+
+/* Un artículo de varios párrafos con una breve descripción del grupo. */
+
+.parrafos-container {
+  display: flex;
+  justify-content: center;
+}
+
+.parrafos {
+  width: 500px;
+  text-align: justify;
+  font-size: large;
+}
+
+.integrantes {
+  font-size: large;
+}
+
+/* Crearemos una tabla con seis filas y tres columnas. */
+
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 600px;
+  margin-bottom: 50px;
+  font-size: large;
+}
+
+th,
+td {
+  border: 1px #000000 solid;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  background-color: #f47b7bbd;
+}
+
+/* La última fila ocupará todas las celdas y contendrá un enlace hacia la página oficial del grupo. */
+.pagina-oficial {
+  background-color: #f9f9f9;
+}
+
+/*Pie de Pagina*/
+
+footer {
+  margin: 5px;
+  text-align: center;
+  border-top: 1px #e1e1e1 solid;
+  height: 70px;
+  font-size: large;
+}

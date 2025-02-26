@@ -7,14 +7,114 @@
     <meta name="keywords" content="meta, practicas, html, lorem " />
     <link rel="stylesheet" href="style.css" />
 
-    <title>Práctica 10</title>
-    <!-- Cambiar el título a “Práctica 10” -->
+    <title>Práctica 11</title>
+    <!-- Cambiar el título a “Práctica 11” -->
   </head>
 
   <body>
     <header>
-      <h1>PRACTICA 10</h1>
+      <h1>PRACTICA 11</h1>
     </header>
+
+    <form
+      class="formulario"
+      action="https://httpbin.org/post"
+      method="post"
+      enctype="application/x-www-form-urlencoded"
+    >
+      <fieldset>
+        <legend class="title">Registro de Usuarios</legend>
+        <!-- Etiqueta Nombre -->
+        <div class="campo">
+          <label class="tag" for="name">Nombre: </label>
+          <input class="entry" type="text" id="name" />
+        </div>
+
+        <div class="campo">
+          <label class="tag" for="surname">Apellido: </label>
+          <input class="entry" type="text" id="surname" />
+        </div>
+
+        <!-- Etiqueta Género -->
+        <div class="campo">
+          <label class="tag">Genero: </label>
+          <div>
+            <label class="tag" for="gender-m">Masculino</label>
+            <input type="radio" id="gender-m" name="gender" value="masculino" />
+          </div>
+          <div>
+            <label class="tag" for="gender-f">Femenino</label>
+            <input type="radio" id="gender-f" name="gender" value="femenino" />
+          </div>
+        </div>
+
+        <!-- Una etiqueta para la “Fecha de Nacimiento” -->
+        <div class="campo">
+          <label class="tag" for="born-day">Fecha de Nacimiento: </label>
+          <input class="entry" type="date" id="born-day" />
+        </div>
+
+        <div class="campo">
+          <label class="tag" for="telf">Teléfono: </label>
+          <input class="entry" type="tel" id="telf" />
+        </div>
+
+        <!-- Una etiqueta para el “Email”. Campo requerido. -->
+        <div class="campo">
+          <label class="tag" for="mail">Email: </label>
+          <input class="entry" type="email" id="mail" required />
+        </div>
+
+        <!-- Una etiqueta para la “Contraseña” usando el tipo correcto. Campo requerido. -->
+        <div class="campo">
+          <label class="tag" for="psw">Contraseña: </label>
+          <input class="entry" type="password" id="psw" required />
+        </div>
+
+        <!-- Una etiqueta para el “Número de asignaturas matriculadas”, deberá ser un número entre 1 y 15 por ejemplo. -->
+        <div class="campo">
+          <label class="tag" for="subject">Numero de Asignaturas: </label>
+          <input class="entry" type="number" id="subject" min="1" max="15" />
+        </div>
+
+        <!-- Una etiqueta para el “Curso Matriculado”, donde tendremos que escoger en un 
+         menú desplegable entre al menos 4 opciones. -->
+
+        <div class="campo">
+          <label class="tag">Curso Matriculado</label>
+          <select class="entry">
+            <option value="" selected disabled>
+              ---Seleccionar Curso Matriculado---
+            </option>
+            <option value="01">Curso Front-End</option>
+            <option value="02">Curso de JAVA</option>
+            <option value="03">Curso Full Stack</option>
+            <option value="04">Curso Back-End</option>
+          </select>
+        </div>
+
+        <!-- Dos casillas tipo “check ” donde se indique si aceptas las condiciones y el registro o no lo -->
+        <div class="terms-condition">
+          <label class="tag">Aceptar Condiciones de Registro</label>
+
+          <div class="sub-terms-condition">
+            <div>
+              <label class="tag">Sí</label>
+              <input type="checkbox" />
+            </div>
+
+            <div>
+              <label class="tag">No</label>
+              <input type="checkbox" />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- Por último, un botón para enviar el formulario. -->
+      <button class="btn" type="submit">Registrarse</button>
+      <button class="btn" type="reset">Reset</button>
+    </form>
 
     <footer>
       <div>

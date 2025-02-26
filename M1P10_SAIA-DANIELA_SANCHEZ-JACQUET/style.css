@@ -1,5 +1,47 @@
+body {
+  display: grid;
+  grid-template-rows: 1fr 6fr;
+}
+
 h1 {
   text-align: center;
   width: 100%;
   height: 50px;
+}
+
+.formulario {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.formulario fieldset {
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.title {
+  background-color: #e1e1e1;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.campo {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.campo label {
+  flex-basis: 120px;
+}
+
+/*Pie de Pagina*/
+footer {
+  margin: 5px;
+  text-align: center;
+  border-top: 1px #e1e1e1 solid;
+  height: 70px;
+  font-size: large;
 }

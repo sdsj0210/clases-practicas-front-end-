@@ -16,6 +16,65 @@
       <h1>PRACTICA 10</h1>
     </header>
 
+    <form
+      class="formulario"
+      action="https://httpbin.org/post"
+      method="post"
+      enctype="application/x-www-form-urlencoded"
+    >
+      <fieldset>
+        <legend class="title">Datos personales</legend>
+        <div>
+          <div class="campo">
+            <label class="tag" for="name">Nombre: </label>
+            <input class="entry" type="text" id="name" />
+          </div>
+
+          <div class="campo">
+            <label class="tag" for="surname">Apellido: </label>
+            <input class="entry" type="text" id="surname" />
+          </div>
+
+          <div class="campo">
+            <label class="tag" for="telf">Teléfono: </label>
+            <input class="entry" type="tel" id="telf" />
+          </div>
+
+          <div class="campo">
+            <label class="tag" for="address">Dirección: </label>
+            <input class="entry" type="text" id="address" />
+          </div>
+          <div class="campo">
+            <label class="tag" for="mail">Email: </label>
+            <input class="entry" type="email" id="mail" />
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend class="title">Seleccionar Curso</legend>
+        <div>
+          <div class="campo">
+            <label class="tag" for="front-end">Curso Front End</label>
+            <input class="entry" type="checkbox" id="front-end" />
+          </div>
+
+          <div class="campo">
+            <label class="tag" for="java">Curso de JAVA</label>
+            <input class="entry" type="checkbox" id="java" />
+          </div>
+
+          <div class="campo">
+            <label class="tag" for="full-stack">Curso Full Stack</label>
+            <input class="entry" type="checkbox" id="full-stack" />
+          </div>
+        </div>
+      </fieldset>
+
+      <button type="submit">Registrarse</button>
+      <button type="reset">Reset</button>
+    </form>
+
     <footer>
       <div>
         <p>Curso de Programacion Web:<span> Front-End</span></p>
